@@ -1,0 +1,58 @@
+[
+  {
+    "caption": "Tools",
+    "mnemonic": "T",
+    "id": "tools",
+    "children":
+    [
+      {
+        "caption": "Packages",
+        "id": "packages",
+        "children":
+        [
+          {
+            "caption": "ProseGeek",
+            "children":
+            [
+              {
+                "command": "pgeek_report",
+                "caption": "Full Report"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caption": "Preferences",
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "ProseGeek",
+            "children":
+            [
+              {
+                "command": "open_file",
+                "args": { "file": "${packages}/ProseGeek/ProseGeek.sublime-settings" },
+                "caption": "Settings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": { "file": "${packages}/User/ProseGeek.sublime-settings" },
+                "caption": "Settings – User"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
